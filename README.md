@@ -10,11 +10,11 @@ Hosted on netlify :
     <tr>
         <td align="center">
          <p>Home Page</p>
-        <img src="src/assets/demo/Home_page.png" alt="Screenshot Home" width="395px" />
+        <img src="src/assets/demo/home_page.png" alt="Screenshot Home" width="376px" height="406"/>
         </td>
         <td align="center">
         <p>Profile Page</p>
-         <img src="src/assets/demo/profile.png" alt="Screenshot Profile" width="386px" height="506"/>
+         <img src="src/assets/demo/profile.png" alt="Screenshot Profile" width="376px" height="406"/>
         </td>
     </tr>
 </table>
