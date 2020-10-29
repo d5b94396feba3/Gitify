@@ -10,7 +10,7 @@ Hosted on netlify :
     <tr>
         <td align="center">
          <p>Home Page</p>
-        <img src="src/demos/Home_page.png" alt="Screenshot Home" width="395px" />
+        <img src="src/assets/demos/Home_page.png" alt="Screenshot Home" width="395px" />
         </td>
         <td align="center">
         <p>Profile Page</p>
