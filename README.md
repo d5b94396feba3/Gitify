@@ -1,5 +1,5 @@
 # Gitify
-GitHub profile analyzer built with VueJs and JavaScript.
+GitHub profile analyzer which connects with GitHub API's to fetch user information built with VueJs and JavaScript.
 
 ### Demo
 
