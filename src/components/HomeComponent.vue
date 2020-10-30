@@ -87,6 +87,8 @@ input::placeholder {
 #btn{
   color: white;
   opacity: 0.95;
+  margin-left:22px;
+
 }
 
 a{
