@@ -1,9 +1,10 @@
-# Gifify
-GitHub profile analyzer built with VueJs and JavaScript.
+# Gitify
+GitHub profile analyzer which connects with GitHub API's to fetch user information built with VueJs and JavaScript.
 
 ### Demo
 
-Hosted on netlify :
+Deployed on Netlify. <br>
+Demo Link : [here](https://gitify-demo.netlify.app/)
 
 ### ScreenShot
 <table align="center">
