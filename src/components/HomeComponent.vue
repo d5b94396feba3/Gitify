@@ -17,7 +17,7 @@
   </div>
   </b-input-group>
 
-    <b-button variant="dark" :disabled="isDisable" @click="getInput" href="/github/user">Search</b-button>
+    <b-button variant="dark" :disabled="isDisable" @click="getInput" href="/profile">Search</b-button>
   </b-jumbotron>
 </div>
 

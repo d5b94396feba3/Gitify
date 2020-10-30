@@ -24,7 +24,7 @@ const routes = [
     component: About
   },
   {
-    path: "/github/user",
+    path: "/profile",
     name: "Profile",
     component: Profile
   },
