@@ -14,7 +14,7 @@
 <div v-else-if="user_found">
 <b-container class="bv-example-row">
     <a :href="current_user.html_url" target="_blank"><b-img v-bind="mainProps"  v-bind:src=image_url rounded="circle" id="profile_img" alt="Circle image"></b-img></a>
-  <p><i class="fab fa-github-square"></i> <a :href="current_user.html_url" target="_blank">{{current_user.name}}</a></p>
+  <p id="acc_name"><i class="fab fa-github-square"></i> <a :href="current_user.html_url" target="_blank">{{current_user.name}}</a></p>
   <b-row cols="1" cols-sm="2" cols-md="1" cols-lg="4" id="after_img">
     <b-col>Received: <i id="icons" class="fas fa-star"></i> {{star_count}}</b-col>
     <b-col>Public (repos): <i class="fab fa-github"></i> {{repos_length}}</b-col>
@@ -28,13 +28,13 @@
 <b-list-group class="list">
 
   <b-list-group-item button v-for="(repo,index) in repos" :key="index">
-   <a :href="repo.html_url" target="_blank"><p> {{repo.name}}</p></a>
-   <p v-if="repo.description">{{repo.description}}</p>
+   <a :href="repo.html_url" target="_blank"><p id="title"> {{repo.name}}</p></a>
+   <p id="description" v-if="repo.description">{{repo.description}}</p>
    <b-row cols="1" cols-sm="2" cols-md="4" cols-lg="4" id='des_row'>
-    <b-col><p><i id="icons" class="fas fa-star"></i> {{repo.stargazers_count}}</p></b-col>
-    <b-col> <p><i id="icons" class="fas fa-code-branch"></i> {{repo.forks_count}}</p></b-col>
-    <b-col><p>Created: {{repo.created_at.substr(0, 10)}}</p></b-col>
-    <b-col><p>Updated: {{repo.updated_at.substr(0, 10)}}</p></b-col>
+    <b-col><p id="repos_info"><i id="icons" class="fas fa-star"></i> {{repo.stargazers_count}}</p></b-col>
+    <b-col> <p id="repos_info"><i id="icons" class="fas fa-code-branch"></i> {{repo.forks_count}}</p></b-col>
+    <b-col><p id="repos_info">Created: {{repo.created_at.substr(0, 10)}}</p></b-col>
+    <b-col><p id="repos_info">Updated: {{repo.updated_at.substr(0, 10)}}</p></b-col>
     <b-col></b-col>
     <b-col></b-col>
   </b-row>
@@ -179,12 +179,15 @@ function sortArray(array, property, direction) {
 
 body{
     color: white;
+    font-family: Avenir;
 }
 #pro .list-group-item {
   background:#201e1e;
   color:white;
   border:1px solid #696969;
   margin-bottom:15px;
+  font-family: Avenir;
+  font-size:18px;
 }
 p{
     margin-top:20px;
@@ -216,6 +219,25 @@ a{
 }
 #param_popular{
   margin-top:55px;
+  font-family: Avenir;
+  font-size:19px;
+}
+#title{
+  font-family: Avenir;
+  font-size:22px;
+}
+#repos_info{
+
+  font-family: Avenir;
+  font-size:17px;
+}
+#acc_name{
+  font-family: Avenir;
+  font-size:19px;
+  margin-bottom:22px;
+}
+#description{
+    font-family: Avenir;
 }
 </style>
 

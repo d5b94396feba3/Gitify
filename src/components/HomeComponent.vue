@@ -100,9 +100,10 @@ a{
   margin: 0 auto;
 }
 #animate_h1{
- font-size:115px;
+  font-size:115px;
   opacity: 0.7;
   color:white;
+  font-family: Avenir;
 }
 .main{
 margin-top:47px;

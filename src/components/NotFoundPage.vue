@@ -1,7 +1,7 @@
 <template>
   <div id="page_404"> <center>
             <h2>404 not found</h2>
-            <h4>it seems you're in the wrong page</h4>
+            <h4>It seems you're in the wrong page</h4>
         </center></div>
 </template>
 
@@ -17,5 +17,6 @@ export default {
     color:white;
     opacity: 0.5;
     margin-bottom:300px;
+    font-family: Avenir;
 }
 </style>
