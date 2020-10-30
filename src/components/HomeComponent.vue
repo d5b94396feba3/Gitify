@@ -17,7 +17,7 @@
   </div>
   </b-input-group>
 
-    <b-button variant="dark" :disabled="isDisable" @click="getInput" href="/profile">Search</b-button>
+    <b-button variant="dark" :disabled="isDisable" @click="getInput" to="/profile" >Search</b-button>
   </b-jumbotron>
 </div>
 
@@ -92,7 +92,7 @@ color:white;
 }
 
 #main_div {
-  margin-top:180px;
+  margin-top:134px;
 }
 .jumbot{
   background-color: rgb(48, 43, 43);

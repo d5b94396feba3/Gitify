@@ -68,7 +68,7 @@ item{
  }
 .row{
    color: white;
-   margin-top:255px;
+   margin-top:115px;
  }
 body{
   background-color:#201e1e;
