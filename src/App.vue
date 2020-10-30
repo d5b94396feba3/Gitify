@@ -60,6 +60,7 @@ item{
 }
 #nav{
   margin-top:50px;
+  font-family: Avenir;
 }
 
 #app .nav-item .active {
@@ -69,6 +70,7 @@ item{
 .row{
    color: white;
    margin-top:115px;
+   font-family: Avenir;
  }
 body{
   background-color:#201e1e;

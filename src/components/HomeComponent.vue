@@ -110,6 +110,7 @@ width: 60%;
 margin: 0 auto;
 opacity: 0.8;
 color:white;
+font-family: Avenir;
 }
 
 #main_div {

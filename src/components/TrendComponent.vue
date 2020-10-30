@@ -41,10 +41,12 @@ width: 60%;
 margin: 0 auto;
 color:white;
 opacity: 0.8;
+font-family: Avenir;
 }
 
 #trendCompo {
   margin-top:190px;
+  font-family: Avenir;
 }
 
 #param{

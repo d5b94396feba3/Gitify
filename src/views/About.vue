@@ -27,11 +27,13 @@ margin-top:47px;
 width: 60%;
 margin: 0 auto;
 color:white;
- opacity: 0.8;
+opacity: 0.8;
+font-family: Avenir;
 }
 
 .about {
   margin-top:190px;
+  font-family: Avenir;
 }
 #param{
   margin-top:25px;
