@@ -4,7 +4,7 @@ GitHub profile analyzer built with VueJs and JavaScript.
 ### Demo
 
 Deployed on Netlify. <br>
-Demo Link : [here](https://gitify-demo.netlify.app/)
+Demo Link : <a href="https://gitify-demo.netlify.app/" target="_blank">here</a>
 
 ### ScreenShot
 <table align="center">
