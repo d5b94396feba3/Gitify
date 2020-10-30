@@ -11,13 +11,21 @@
 
     <hr class="my-4">
 
-  <b-input-group class="mt-3 mb-3">
+  <!-- <b-input-group class="mt-3 mb-3">
   <div class="col-xs-5">
     <b-form-input width="90" autocomplete="off" placeholder="Enter github username" id="input-none" v-model="name"></b-form-input>
   </div>
-  </b-input-group>
+  </b-input-group> -->
+      <b-input-group size="sm" class="mb-2">
+          <div class="col-xs-5">
+      <b-input-group-prepend>
+        <i class="fab fa-github" id="search_github"></i>
+      </b-input-group-prepend>
+      <b-form-input autocomplete="off" placeholder="Enter github username" id="input-none" v-model="name"></b-form-input>
+      </div>
+    </b-input-group>
 
-  <router-link to="/profile"><b-button variant="dark" :disabled="isDisable" @click="getInput">Search</b-button></router-link>
+  <router-link to="/profile"><b-button id="btn" variant="dark" :disabled="isDisable" @click="getInput">Search</b-button></router-link>
   </b-jumbotron>
 </div>
 
@@ -61,13 +69,24 @@ computed: {
   text-align: center;
 }
 #input-none{
-  color: black;
+
   border: 1px solid #ccc;
   margin-top: 10px;
+  height: 50px;
+  color: white;
+  background-color:rgb(48, 43, 43);
+
+}
+input::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
+  color:white;
+}
+input::placeholder {
+	color:white;
 }
 
-button{
+#btn{
   color: white;
+  opacity: 0.95;
 }
 
 a{
@@ -99,6 +118,12 @@ color:white;
 }
 .my-4{
   background-color:white;
+}
+#search_github{
+
+  margin-top: 15px;
+  margin-right: 5px;
+  font-size:38px;
 }
 </style>
 
