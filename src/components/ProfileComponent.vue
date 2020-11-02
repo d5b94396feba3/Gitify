@@ -96,7 +96,7 @@ export default {
             this.image_url=this.current_user.avatar_url
              this.user_found=true
 
-    fetch(`https://api.github.com/users/${this.search}/repos`)
+    fetch(`https://api.github.com/users/${this.search}/repos?per_page=100`)
     .then(async (data) => {
         if (data.ok) {
             data = await data.json()
