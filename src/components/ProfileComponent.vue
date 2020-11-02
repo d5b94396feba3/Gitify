@@ -94,7 +94,6 @@ export default {
             data = await data.json()
             this.current_user=data
             this.image_url=this.current_user.avatar_url
-             this.user_found=true
 
     fetch(`https://api.github.com/users/${this.search}/repos?per_page=100`)
     .then(async (data) => {
@@ -107,7 +106,7 @@ export default {
             this.none_ropos=[]
             this.star_count=0
             this.fork_count=0
-
+            this.user_found=true
         if(this.repos_length>0) {
 
             for(let i=0; i<this.repos_length; i++){
