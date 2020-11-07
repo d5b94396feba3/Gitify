@@ -15,7 +15,7 @@
   <div class="row">
     <div class="col-12">
     <hr style=" border-top: 2px solid #696969; ">
-    <p>Made with ❤️ in Vue.js. Developed by <a href="https://github.com/Shahibur66" style='color: white;' target="_blank" >Shahibur Rahman</a>.
+    <p>Made with ❤️ in Vue.js. Developed by <a href="https://github.com/d5b94396feba3" style='color: white;' target="_blank" >Shahibur Rahman</a>.
     </p>
     </div>
   </div>
